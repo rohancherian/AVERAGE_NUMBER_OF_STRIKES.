@@ -1,0 +1,3 @@
+SELECT date, AVG(number_of_strikes) AS AVERAGE_STRIKES FROM `bigquery-public-data.noaa_lightning.lightning_1987` 
+GROUP BY 1
+ORDER BY 2 DESC 
